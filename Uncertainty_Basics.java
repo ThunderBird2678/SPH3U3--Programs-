@@ -174,6 +174,14 @@ public class Uncertainty_Basics
 
         res = add(mantissa, uncertainty);
 
+        t1 = res[0];
+        t2 = res[1];
+
+        System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
+        System.out.println();
+        spacing("The result is ( " + t1 + " +/- " + t2 + " ).");
+        System.out.println();
+        
       }
 
       else if(op == 2)
